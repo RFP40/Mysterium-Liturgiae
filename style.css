@@ -1,0 +1,164 @@
+.top {
+    display: flex;
+    flex-direction: column; /* empilha elementos */
+    align-items: center;    /* centraliza horizontalmente */
+    background-color: #c41c24;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;   /* coloca os botões lado a lado */
+    gap: 10px;       /* espaço entre os botões */
+    margin-top: 20px; /* distância do título */
+}
+
+.top h1 {
+    margin: 0;
+    color: #FFD580;
+    font-size: 60px;
+}
+
+
+.buttons a {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #FFD580;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+
+/* Área abaixo do topo com imagem */
+.hero {
+    height: auto;
+    background-color: #FFDFB9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; /* separa texto e imagem */
+    padding: 40px 80px; /* afasta do topo e das laterais */
+}
+
+.hero img {
+  max-width: 500px;
+  height: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column; /* H1 em cima, P embaixo */
+    max-width: 900px; /* limita o tamanho do texto */
+}
+
+.text h1 {
+    white-space: nowrap; /* não deixa o H1 quebrar */
+}
+
+p {
+  font-size: 25px;
+}
+
+blockquote {
+  border-left: 4px solid #FFD580; /* linha verde do lado esquerdo */
+  padding-left: 15px;             /* espaço entre a linha e o texto */
+  margin: 20px 0;                 /* espaço acima e abaixo */
+  font-style: italic;             /* deixa em itálico */
+  color: #333;                    /* cor do texto */
+  font-size: 27px;
+}
+
+blockquote footer {
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #666;                    /* cor mais suave para o autor */
+}
+
+.herotwo {
+    height: auto;
+    background-color: #FFDFB9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; /* separa texto e imagem */
+    padding: 40px 80px; /* afasta do topo e das laterais */
+}
+
+.herotres{
+  height: auto;
+    background-color: #FFDFB9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; /* separa texto e imagem */
+    padding: 40px 80px; /* afasta do topo e das laterais */
+}
+
+.heroquatro {
+  height: auto;
+    background-color: #FFDFB9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; /* separa texto e imagem */
+    padding: 40px 80px; /* afasta do topo e das laterais */
+}
+
+.textotwo {
+      display: flex;
+    flex-direction: column; 
+    text-align: center;
+    max-width: auto; /* limita o tamanho do texto */
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column; /* título em cima, links embaixo */
+  align-items: center;    /* centraliza tudo */
+  background-color: #c41c24;
+  padding: 20px;
+  gap: 20px; /* espaço entre o título e os links */
+}
+
+.footer-title {
+  color: #FFD580;
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row; /* coloca os itens lado a lado */
+  justify-content: center;
+  gap: 40px; /* espaço entre os blocos */
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column; /* ícone em cima, botão embaixo */
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-item img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-item button {
+  background: none;
+  color: #FFD580;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
